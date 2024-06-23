@@ -25,7 +25,7 @@ Building your own LLM involves creating an LLM from scratch by defining all mode
 
 
 
-Prompt Engineering
+#Prompt Engineering
 
 Prompt engineering refers to any use of an LLM out-of-the-box, involving the art of programming LLMs with prompts to achieve desired tasks. It is described as "the means by which LLMs are programmed with prompts" , and "an empirical art of composing and formatting the prompt to maximize a model’s performance on a desired task" . Essentially, prompt engineering leverages the nature of language models to complete documents, enabling the performance of various tasks by creatively arranging prompts as if they were parts of a document . This technique can be easily applied through tools like ChatGPT or more complex APIs from providers such as OpenAI or Hugging Face.
 
@@ -54,7 +54,7 @@ By following these strategies, developers can significantly enhance the performa
 
 
 
-Fine-Tuning
+#Fine-Tuning
  
 Fine-tuning refers to the process of taking a pre-trained machine learning model and further training it on a new task or dataset. This typically involves adjusting the model's parameters so that it can better perform the specific task it's being fine-tuned for. Fine-tuning leverages the knowledge and representations learned by the model during its initial training (often on a large general dataset) and adapts these to a more specialized task or domain. The goal is to improve the model's performance on the new task without requiring extensive training from scratch.
 
@@ -106,7 +106,7 @@ The final step in QLoRA is Low-Rank Adaptation (LoRA), which focuses on fine-tun
 
 
 
-RAG (Retrieval-Augmented Generation)
+#RAG (Retrieval-Augmented Generation)
 
 RAG (Retrieval-Augmented Generation) is a method that combines the strengths of large language models (LLMs) with the precision and relevance of a specialized and mutable knowledge base. The primary aim of RAG is to enhance the capabilities of LLMs by providing them with access to a dynamic repository of information that can be updated and customized as needed. This integration allows the model to generate more accurate and contextually appropriate responses by drawing on up-to-date and specialized knowledge that might not be present in the static pre-trained model.
 
@@ -121,7 +121,7 @@ In practice, RAG works by first using the retriever to identify relevant documen
 
 
 
-Building a large language model (LLM)  from scratch
+#Building a large language model (LLM)  from scratch
 
 Building a large language model (LLM) from scratch involves several key steps, from data curation to model architecture, training at scale, and evaluation. Here's a detailed explanation of each step:
 
